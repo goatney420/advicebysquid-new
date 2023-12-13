@@ -20,9 +20,7 @@ function AdvicePage() {
         return (
             <div className="pagestyle">
                 <h1>
-                    It seems that you are feeling <span className="emotion-text">{emotion}</span>
-                </h1>
-                <h1>Squid thinks this will help</h1>
+                    So, you are feeling <span className="emotion-text">{emotion}</span> <br></br>Squid thinks this will help</h1>
                 <div className="buttons-container">
                     
                 <a href={data.watch} >

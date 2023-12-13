@@ -16,16 +16,20 @@ function FeelingPage() {
     <>
       <div className="pagestyle">
         <h1>So, how are you feeling?</h1>
+
         <div className="input-container">
+        
           <input
             type="text"
             placeholder="ex: chonky"
             value={emotion}
             onChange={(e) => setEmotion(e.target.value)}
           />
-          <div className="icon-right" onClick={handleSubmit}>
+
+          <div className="submit-icon" onClick={handleSubmit}>
             <FontAwesomeIcon icon={faArrowRight} />
           </div>
+
         </div>
       </div>
     </>

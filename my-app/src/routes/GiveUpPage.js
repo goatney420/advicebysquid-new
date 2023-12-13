@@ -14,8 +14,7 @@ function GiveUpPage () {
     return(
         <>
             <div className="pagestyle">
-                <h1>Wow, you gave up</h1>
-                <h1>Here are a list of <span className="emotion-text">squid's emotions</span></h1>
+                <h1>Wow, you gave up <br></br>Here are a list of <span className="emotion-text">squid's emotions</span></h1>
                 <select onChange={handleSelectChange}>
                     {EmotionsData.map((emotion, index) => (
                         <option key={index} value={emotion.name}>
