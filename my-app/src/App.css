@@ -7,31 +7,37 @@
 
 .App {
   text-align: center;
+  align-items: center;
 }
 
 body {
-  background-color: #1c1c1c; 
+  background-color: #1c1c1c;
   color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .pagestyle {
+  max-width: 600px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; 
-  margin: 0; 
-  max-width: 600px;
-} 
+  align-items: center; /* Center horizontally */
+}
 
 .icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ff7597;
   width: 40px;
   height: 40px;
-  background-color: #ff7597;
-  color:#1c1c1c;
-  padding: .25rem;
   border-radius: 50%;
+}
+
+.icon a {
+  color: #1c1c1c;
 }
